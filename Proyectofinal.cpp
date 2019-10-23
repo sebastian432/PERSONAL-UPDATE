@@ -59,6 +59,74 @@ void Mejora::Fisica()
         cout<<"\t un abdomen bien trabajado en todo momento. \n\n";
 
     }
+    else if(aspecto_f == 2)
+    {
+
+        int opcion_piernas;
+        cout<<"\t Las piernas son parte esencial de cualquier tipo de actividad física. \n\n";
+        cout<<"\t Mantener unas piernas en forma está al alcance de todos. \n\n";
+        cout<<"\t Todo es cuestión de realizar unos sencillos ejercicios centrados en \n\n";
+        cout<<"\t los diferentes grupos musculares que forman parte del tren inferior, \n\n";
+        cout<<"\t sin necesidad de salir de casa ni utilizar ningún aparato. \n\n";
+
+
+
+
+        cout<<"Te recomendamos los siguientes ejercicios, elige con cual quisieras iniciar: \n";
+
+        cout<<"1. SENTADILLAS. \n\n";
+        cout<<"2. ZANCADAS ALTERNAS. \n\n";
+        cout<<"3. BURPEES. \n\n";
+        cout<<"4. PUENTE. \n\n";
+        cout<<"5. GEMELOS. \n\n";
+        cin>>opcion_piernas;
+
+
+        if(opcion_piernas == 1)
+        {
+            cout<<"\t Usted eligio sentadillas \n";
+            cout<<"\t Ponte de pie con las piernas separadas, \n\n";
+            cout<<"\t situando cada pie en paralelo con los hombros. \n\n";
+            cout<<"\t Con la mirada al frente, flexiona las piernas, \n\n";
+            cout<<"\t descendiendo los glúteos en dirección al suelo, \n\n";
+            cout<<"\t manteniendo sin levantar las plantas de los pies. \n\n";
+            cout<<"\t Mientras desciendas, la espalda debe estar recta y las rodillas \n\n";
+            cout<<"\t y la cadera flexionadas. \n\n";
+        }
+
+        else if(opcion_piernas == 2)
+        {
+            cout<<"\t Usted eligio Zancadas Alternas \n";
+            cout<<"\t La posicion inicial es en cuclillas y con las manos \n\n";
+            cout<<"\t posicionadas en la cadera. \n\n";
+            cout<<"\t Adelanta una pierna y la otra, alternativamente. \n\n";
+            cout<<"\t Ten en cuenta que la pierna que se encuentre levantada \n\n";
+            cout<<"\t no debe superar un ángulo de 90 grados. \n\n";
+        }
+
+        else if(opcion_piernas == 3)
+        {
+            cout<<"\t Usted eligio Burpees \n";
+            cout<<"\t Es un movimiento en el que participan una gran cantidad \n\n";
+            cout<<"\t de músculos como, por ejemplo, los glúteos y los cuádriceps. \n\n";
+            cout<<"\t El ejercicio consiste, básicamente, en colocarnos de cuclillas, \n\n";
+            cout<<"\t con las manos apoyadas en el suelo, y, desde esa posición, \n\n";
+            cout<<"\t estirar las piernas hacia atrás y, seguidamente, \n\n";
+            cout<<"\t volver a la posición inicial. \n\n";
+        }
+        else if(opcion_piernas == 4)
+        {
+            cout<<"\t Usted eligio Puente \n";
+            cout<<"\t Túmbate boca arriba con las piernas flexionadas. \n\n";
+            cout<<"\t A continuación, levanta la cadera y permanecer \n\n";
+            cout<<"\t inmovil durante 20 segundos. \n\n";
+        }
+        else if(opcion_piernas == 5)
+        {
+         
+            
+        }
+    }
 
 }
 
@@ -71,3 +139,4 @@ int main()
 
 return 0;
 }
+
