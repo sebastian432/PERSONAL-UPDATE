@@ -126,7 +126,7 @@ void Mejora::Fisica()
                     cout<<"\t Usted eligio Gemelos(Pantorrillas) \n";
                     cout<<"\t Situate de puntillas y \n\n";
                     cout<<"\t permanece estático durante 20 segundos. \n\n";
-                    cout<<"\t Descansa durante un minuto \n\n"; 
+                    cout<<"\t Descansa durante un minuto \n\n";
                     cout<<"\t y repite el ejercicio 3 veces. \n\n";
                 }
     }
@@ -137,9 +137,9 @@ void Mejora::Fisica()
                 cout<<"\t y bonitos requiere una cierta constancia y dedicación. \n\n";
                 cout<<"\t ¡Pon en práctica esta rutina de ejercicios \n\n";
                 cout<<"\t con mancuernas para hacer en casa! ¡Verás los resultados! \n\n";
-                
+
                 cout<<"Escoge entre las opciones que tenemos para ejercitar tus brazos \n\n";
-        
+
         cout<<"1. FLEXIONES DE PECHO. \n\n";
         cout<<"2. FLEXIONES DE TRICEPS. \n\n";
         cout<<"3. CURL DE BICEPS. \n\n";
@@ -171,14 +171,14 @@ void Mejora::Fisica()
                         cout<<"\t y toma en cada mano una mancuerna. Si no tienes mancuernas, \n\n";
                         cout<<"\t puedes utilizar paquetes de legumbres o \n\n";
                         cout<<"\t rellenar unas botellas con tierra. \n\n";
-                        cout<<"\t Dobla tus codos mientras acercas tus muñecas a \n\n"; 
+                        cout<<"\t Dobla tus codos mientras acercas tus muñecas a \n\n";
                         cout<<"\t los hombros, y baja despacio. \n\n";
                     }
                     else if(opcion_brazos==4)
                     {
                         cout<<"\t Usted eligio Elevaciones laterales para los hombros \n";
-                        cout<<"\t Colócate de pie con las rodillas ligeramente \n\n";
-                        cout<<"\t flexionadas y una mancuerna (o botella) en cada mano. \n\n"; 
+                        cout<<"\t Colocate de pie con las rodillas ligeramente \n\n";
+                        cout<<"\t flexionadas y una mancuerna (o botella) en cada mano. \n\n";
                         cout<<"\t Elevamos los brazos lateralmente hasta que nuestro hombro, \n\n";
                         cout<<"\t codo y muñeca estén alineados \n\n";
                         cout<<"\t y se encuentren paralelos al suelo \n\n";
@@ -186,14 +186,41 @@ void Mejora::Fisica()
                     else if(opcion_brazos==5)
                     {
                         cout<<"\t Usted eligio Dips de triceps \n";
-                        cout<<"\t Nos colocamos de espaldas a la silla 
-                        cout<<"\t y apoyamos las manos en el asiento, 
-                        cout<<"\t de modo que los dedos de las manos miren hacia nosotros. 
-                        cout<<"\t Desde ahí, flexionamos los codos para bajar con la 
+                        cout<<"\t Nos colocamos de espaldas a la silla \n\n";
+                        cout<<"\t y apoyamos las manos en el asiento, \n\n";
+                        cout<<"\t de modo que los dedos de las manos miren hacia nosotros. \n\n";
+                        cout<<"\t Desde ahí, flexionamos los codos para bajar con la \n\n";
                         cout<<"\t espalda erguida, y empujamos la silla hacia abajo \n\n";
                         cout<<"\t para volver a subir. \n\n";
                     }
-                
+                    else if(opcion_brazos==6)
+                    {
+                        cout<<"\t Usted eligio Press de hombros \n";
+                        cout<<"\t Colócate de pie con las rodillas ligeramente flexionadas \n\n";
+                        cout<<"\t (también se puede realizar sentada en una silla) \n\n";
+                        cout<<"\t coge una mancuerna o botella en cada mano y \n\n";
+                        cout<<"\t colócalas a la altura de las orejas. \n\n";
+                        cout<<"\t Desde ahí, empújalas hacia el techo por encima \n\n";
+                        cout<<"\t de tu cabeza hasta estirar los brazos y \n\n";
+                        cout<<"\t vuelve a la posición inicial. \n\n";
+                    }
+                    else if(opcion_brazos==7)
+                    {
+                        cout<<"\t Usted eligio Extension de triceps \n";
+                        cout<<"\t Subimos ambos brazos hacia el techo, \n\n";
+                        cout<<"\t colocando la mancuerna por encima de nuestra cabeza, \n\n";
+                        cout<<"\t y desde ahí, flexionamos los codos para que llegue \n\n";
+                        cout<<"\t hasta la altura de nuestra nuca. \n\n";
+                        cout<<"\t Volvemos a estirar los codos \n\n";
+                        cout<<"\t para regresar a la posición inicial. \n\n";
+                    }
+
+    }
+    else if(aspecto_f==4)
+    {
+        int opcion_espalda;
+                cout<<"\t
+        
     }
 
 }
