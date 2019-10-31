@@ -219,10 +219,55 @@ void Mejora::Fisica()
     else if(aspecto_f==4)
     {
         int opcion_espalda;
-                cout<<"\t
-        
-    }
+                cout<<"\t El trabajo de la espalda merece especial atención \n";
+                cout<<"\t en nuestro entrenamiento, pues mas alla de la \n\n";
+                cout<<"\t estetica de su fortalecimiento depende el riesgo \n\n";
+                cout<<"\t de sufrir lesiones, nuestra postura y más. \n\n";
+                cout<<"\t Por ello, si buscas una espalda fuerte y ancha, \n\n";
+                cout<<"\t te mostramos los ejercicios que no pueden faltar en tu rutina. \n\n";
 
+                cout<<"Escoge entre las opciones que tenemos para ejercitar tu espalda: \n\n";
+
+        cout<<"1. DOMINADAS. \n\n";
+        cout<<"2. HIPER EXTENSIONES. \n\n";
+        cout<<"3. PESO MUERTO. \n\n";
+        cout<<"4. PULLOVER. \n\n";
+        cin>>opcion_espalda;
+
+                if(opcion_espalda==1)
+                {
+                    cout<<"\t Elegiste hacer Dominadas \n";
+                    cout<<"\t INSTRUCCIONES: \n\n";
+                    cout<<"\t Empieza colgado en la barra con los brazos estirados \n\n";
+                    cout<<"\t y con una distancia corta entre las manos. \n\n";
+                }
+                else if(opcion_espalda==2)
+                {
+                    cout<<"\t Elegiste hacer hiper extensiones \n";
+                    cout<<"\t Requiere de la elevación contra la gravedad, \n\n";
+                    cout<<"\t del tronco mediante la fuerza de la zona lumbar \n\n";
+                    cout<<"\t y resulta efectivo para solicitar intensamente \n\n";
+                    cout<<"\t los músculos situados en la región inferior de nuestra espalda. \n\n";
+                }
+                else if(opcion_espalda==3)
+                {
+                        cout<<"\t Elegiste hacer peso muerto \n";
+                        cout<<"\t Debemos cargar una barra y colocarnos tras esta para después \n\n";
+                        cout<<"\t inclinar el torso erguido hacia adelante y \n\n";
+                        cout<<"\t levantar la misma mediante la contracción \n\n";
+                        cout<<"\t de músculos de la parte posterior de nuestro cuerpo \n\n";
+                }
+                else if(opcion_espalda==4)
+                {
+                        cout<<"\t Elegiste hacer pullover \n";
+                        cout<<"\t Se realiza en un banco, aunque tambien podriamos \n\n";
+                        cout<<"\t ejecutarlo tumbados en el suelo, con una mancuerna \n\n";
+                        cout<<"\t pesada que debemos llevar hacia atras del cuerpo \n\n";
+                        cout<<"\t y regresar a nuestro pecho, con los brazos \n\n";
+                        cout<<"\t ligeramente extendidos, para trabajar espalda \n\n";
+                        cout<<"\t y pectorales al mismo tiempo. \n\n";
+                }
+    }
 }
 
 int main()
