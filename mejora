@@ -15,15 +15,23 @@ void Mejora::Mostrar_mensaje()
 
 void Mejora::Fisica()
 {
+
+
     int aspecto_f;
+
+    do
+    {
     cout<<"Que aspecto fisico quieres mejorar? \n\n";
+
     cout<<"Elige una opcion: \n";
     cout<<"1. Abdominales \n\n";
     cout<<"2. Piernas \n\n";
     cout<<"3. Brazos \n\n";
     cout<<"4. Espalda \n\n";
-
     cin>>aspecto_f;
+    }while(aspecto_f>4 || aspecto_f<=0);
+
+
     if (aspecto_f == 1)
     {
         int opcion_abdominales;
@@ -36,6 +44,8 @@ void Mejora::Fisica()
         cout<<"\t aspectos a tener en cuenta a la hora de conseguir un \n\n";
         cout<<"\t vientre en perfectas condiciones. \n\n";
 
+        do  //instruccion para controlar error al no ingresar un valor dentro del rango
+        {
         cout<<"Te recomendamos los siguientes ejercicios, elige con cual quisieras iniciar: \n";
 
         cout<<"1. LEVANTAMINETO DE PIERNAS. \n\n";
@@ -46,10 +56,11 @@ void Mejora::Fisica()
         cout<<"6. ABDOMINALES CON BALON. \n\n";
         cout<<"7. SENTADILLA CON SALTO. \n\n";
         cin>>opcion_abdominales;
+        }while(opcion_abdominales>7 || opcion_abdominales<=0);
 
         if(opcion_abdominales==1)
         {
-            cout<<"\t Usted eligio Levantamineto de piernas \n";
+            cout<<"\t Usted eligio Levantamineto de piernas \n\n";
             cout<<"\t Este ejercicio lo puedes hacer en la silla romana, \n\n";
             cout<<"\t apoyandote en unas barras paralelas, \n\n";
             cout<<"\t colgada de algún soporte o recostada en el piso \n\n";
@@ -60,7 +71,7 @@ void Mejora::Fisica()
         }
         else if(opcion_abdominales==2)
         {
-            cout<<"\t Usted eligio Burpee \n";
+            cout<<"\t Usted eligio Burpee \n\n";
             cout<<"\t Primero colócate de pie, luego apoyando las manos en el suelo, \n\n";
             cout<<"\t estira las piernas con un impulso para terminar \n\n";
             cout<<"\t en la posición para realizar una flexión, \n\n";
@@ -70,7 +81,7 @@ void Mejora::Fisica()
         }
         else if(opcion_abdominales==3)
         {
-            cout<<"\t Usted eligio Abdominales con levantamiento de piernas \n";
+            cout<<"\t Usted eligio Abdominales con levantamiento de piernas \n\n";
             cout<<"\t Acostada bocarriba con las manos extendidas, \n\n";
             cout<<"\t eleva al mismo tiempo las piernas y \n\n";
             cout<<"\t los brazos hacia arriba y sostén un momento. \n\n";
@@ -78,7 +89,7 @@ void Mejora::Fisica()
         }
         else if(opcion_abdominales==4)
         {
-            cout<<"\t Usted eligio Escaladas \n";
+            cout<<"\t Usted eligio Escaladas \n\n";
             cout<<"\t A partir de la posición de plancha, \n\n";
             cout<<"\t jalas un pie hacia el pecho, regresas a \n\n";
             cout<<"\t la posición inicial y repites con el otro, \n\n";
@@ -86,7 +97,7 @@ void Mejora::Fisica()
         }
         else if(opcion_abdominales==5)
         {
-            cout<<"\t Usted eligio Abdominales cruzadas \n";
+            cout<<"\t Usted eligio Abdominales cruzadas \n\n";
             cout<<"\t Acostada en el suelo bocarriba y \n\n";
             cout<<"\t con las piernas flexionadas, coloca las manos \n\n";
             cout<<"\t detrás de la nuca, levanta el tronco y \n\n";
@@ -97,7 +108,7 @@ void Mejora::Fisica()
         }
         else if(opcion_abdominales==6)
         {
-            cout<<"\t Usted eligio Abdominales con balon \n";
+            cout<<"\t Usted eligio Abdominales con balon \n\n";
             cout<<"\t Recuéstate sobre tus lumbares en la pelota y \n\n";
             cout<<"\t coloca las manos en la nuca. \n\n";
             cout<<"\t Eleva el tronco hacia arriba y \n\n";
@@ -105,7 +116,7 @@ void Mejora::Fisica()
         }
         else if(opcion_abdominales==7)
         {
-            cout<<"\t Usted eligio Sentadilla con salto \n";
+            cout<<"\t Usted eligio Sentadilla con salto \n\n";
             cout<<"\t Párate recta y flexiona ligeramente las rodillas. \n\n";
             cout<<"\t Agáchate con las caderas hacia atrás, \n\n";
             cout<<"\t con la espalda completamente recta y \n\n";
@@ -128,7 +139,9 @@ void Mejora::Fisica()
 
 
 
+        do
 
+        {
         cout<<"Te recomendamos los siguientes ejercicios, elige con cual quisieras iniciar: \n";
 
         cout<<"1. SENTADILLAS. \n\n";
@@ -137,11 +150,11 @@ void Mejora::Fisica()
         cout<<"4. PUENTE. \n\n";
         cout<<"5. GEMELOS. \n\n";
         cin>>opcion_piernas;
-
+        }while(opcion_piernas>5 || opcion_piernas<=0);
 
                 if(opcion_piernas == 1)
                 {
-                    cout<<"\t Usted eligio sentadillas \n";
+                    cout<<"\t Usted eligio sentadillas \n\n";
                     cout<<"\t Ponte de pie con las piernas separadas, \n\n";
                     cout<<"\t situando cada pie en paralelo con los hombros. \n\n";
                     cout<<"\t Con la mirada al frente, flexiona las piernas, \n\n";
@@ -153,7 +166,7 @@ void Mejora::Fisica()
 
                 else if(opcion_piernas == 2)
                 {
-                    cout<<"\t Usted eligio Zancadas Alternas \n";
+                    cout<<"\t Usted eligio Zancadas Alternas \n\n";
                     cout<<"\t La posicion inicial es en cuclillas y con las manos \n\n";
                     cout<<"\t posicionadas en la cadera. \n\n";
                     cout<<"\t Adelanta una pierna y la otra, alternativamente. \n\n";
@@ -163,7 +176,7 @@ void Mejora::Fisica()
 
                 else if(opcion_piernas == 3)
                 {
-                    cout<<"\t Usted eligio Burpees \n";
+                    cout<<"\t Usted eligio Burpees \n\n";
                     cout<<"\t Es un movimiento en el que participan una gran cantidad \n\n";
                     cout<<"\t de músculos como, por ejemplo, los glúteos y los cuádriceps. \n\n";
                     cout<<"\t El ejercicio consiste, básicamente, en colocarnos de cuclillas, \n\n";
@@ -173,14 +186,14 @@ void Mejora::Fisica()
                 }
                 else if(opcion_piernas == 4)
                 {
-                    cout<<"\t Usted eligio Puente \n";
+                    cout<<"\t Usted eligio Puente \n\n";
                     cout<<"\t Túmbate boca arriba con las piernas flexionadas. \n\n";
                     cout<<"\t A continuación, levanta la cadera y permanecer \n\n";
                     cout<<"\t inmovil durante 20 segundos. \n\n";
                 }
                 else if(opcion_piernas == 5)
                 {
-                    cout<<"\t Usted eligio Gemelos(Pantorrillas) \n";
+                    cout<<"\t Usted eligio Gemelos(Pantorrillas) \n\n";
                     cout<<"\t Situate de puntillas y \n\n";
                     cout<<"\t permanece estático durante 20 segundos. \n\n";
                     cout<<"\t Descansa durante un minuto \n\n";
@@ -195,7 +208,9 @@ void Mejora::Fisica()
                 cout<<"\t ¡Pon en práctica esta rutina de ejercicios \n\n";
                 cout<<"\t con mancuernas para hacer en casa! ¡Verás los resultados! \n\n";
 
-                cout<<"Escoge entre las opciones que tenemos para ejercitar tus brazos \n\n";
+        do
+        {
+        cout<<"Escoge entre las opciones que tenemos para ejercitar tus brazos \n\n";
 
         cout<<"1. FLEXIONES DE PECHO. \n\n";
         cout<<"2. FLEXIONES DE TRICEPS. \n\n";
@@ -205,9 +220,11 @@ void Mejora::Fisica()
         cout<<"6. PRESS DE HOMBROS. \n\n";
         cout<<"7. EXTENSION DE TRICEPS. \n\n";
         cin>>opcion_brazos;
+        }while(opcion_brazos>7 || opcion_brazos<=0);
+
                     if(opcion_brazos==1)
                     {
-                        cout<<"\t Usted eligio Flexiones de pecho \n";
+                        cout<<"\t Usted eligio Flexiones de pecho \n\n";
                         cout<<"\t Túmbate boca abajo y coloca las manos a una anchura \n\n";
                         cout<<"\t un poco mayor que la de tus hombros. Desde ahí, \n\n";
                         cout<<"\t empuja el suelo para hacer que tu cuerpo se eleve, \n\n";
@@ -215,7 +232,7 @@ void Mejora::Fisica()
                     }
                     else if(opcion_brazos==2)
                     {
-                        cout<<"\t Usted eligio Flexiones de triceps \n";
+                        cout<<"\t Usted eligio Flexiones de triceps \n\n";
                         cout<<"\t Coloca tus manos directamente debajo de tus hombros \n\n";
                         cout<<"\t y asegúrate de que tus brazos están bien pegados al \n\n";
                         cout<<"\t cuerpo y de que tus codos apuntan hacia atrás. \n\n";
@@ -223,7 +240,7 @@ void Mejora::Fisica()
                     }
                     else if(opcion_brazos==3)
                     {
-                        cout<<"\t Usted eligio Curl de biceps \n";
+                        cout<<"\t Usted eligio Curl de biceps \n\n";
                         cout<<"\t Colócate de pie con las rodillas ligeramente flexionadas \n\n";
                         cout<<"\t y toma en cada mano una mancuerna. Si no tienes mancuernas, \n\n";
                         cout<<"\t puedes utilizar paquetes de legumbres o \n\n";
@@ -233,7 +250,7 @@ void Mejora::Fisica()
                     }
                     else if(opcion_brazos==4)
                     {
-                        cout<<"\t Usted eligio Elevaciones laterales para los hombros \n";
+                        cout<<"\t Usted eligio Elevaciones laterales para los hombros \n\n";
                         cout<<"\t Colocate de pie con las rodillas ligeramente \n\n";
                         cout<<"\t flexionadas y una mancuerna (o botella) en cada mano. \n\n";
                         cout<<"\t Elevamos los brazos lateralmente hasta que nuestro hombro, \n\n";
@@ -242,7 +259,7 @@ void Mejora::Fisica()
                     }
                     else if(opcion_brazos==5)
                     {
-                        cout<<"\t Usted eligio Dips de triceps \n";
+                        cout<<"\t Usted eligio Dips de triceps \n\n";
                         cout<<"\t Nos colocamos de espaldas a la silla \n\n";
                         cout<<"\t y apoyamos las manos en el asiento, \n\n";
                         cout<<"\t de modo que los dedos de las manos miren hacia nosotros. \n\n";
@@ -252,7 +269,7 @@ void Mejora::Fisica()
                     }
                     else if(opcion_brazos==6)
                     {
-                        cout<<"\t Usted eligio Press de hombros \n";
+                        cout<<"\t Usted eligio Press de hombros \n\n";
                         cout<<"\t Colócate de pie con las rodillas ligeramente flexionadas \n\n";
                         cout<<"\t (también se puede realizar sentada en una silla) \n\n";
                         cout<<"\t coge una mancuerna o botella en cada mano y \n\n";
@@ -263,7 +280,7 @@ void Mejora::Fisica()
                     }
                     else if(opcion_brazos==7)
                     {
-                        cout<<"\t Usted eligio Extension de triceps \n";
+                        cout<<"\t Usted eligio Extension de triceps \n\n";
                         cout<<"\t Subimos ambos brazos hacia el techo, \n\n";
                         cout<<"\t colocando la mancuerna por encima de nuestra cabeza, \n\n";
                         cout<<"\t y desde ahí, flexionamos los codos para que llegue \n\n";
@@ -276,31 +293,34 @@ void Mejora::Fisica()
     else if(aspecto_f==4)
     {
         int opcion_espalda;
-                cout<<"\t El trabajo de la espalda merece especial atención \n";
+                cout<<"\t El trabajo de la espalda merece especial atención \n\n";
                 cout<<"\t en nuestro entrenamiento, pues mas alla de la \n\n";
                 cout<<"\t estetica de su fortalecimiento depende el riesgo \n\n";
                 cout<<"\t de sufrir lesiones, nuestra postura y más. \n\n";
                 cout<<"\t Por ello, si buscas una espalda fuerte y ancha, \n\n";
                 cout<<"\t te mostramos los ejercicios que no pueden faltar en tu rutina. \n\n";
 
-                cout<<"Escoge entre las opciones que tenemos para ejercitar tu espalda: \n\n";
+        do
+        {
+        cout<<"Escoge entre las opciones que tenemos para ejercitar tu espalda: \n\n";
 
         cout<<"1. DOMINADAS. \n\n";
         cout<<"2. HIPER EXTENSIONES. \n\n";
         cout<<"3. PESO MUERTO. \n\n";
         cout<<"4. PULLOVER. \n\n";
         cin>>opcion_espalda;
+        }while(opcion_espalda>4 || opcion_espalda<=0);
 
                 if(opcion_espalda==1)
                 {
-                    cout<<"\t Elegiste hacer Dominadas \n";
+                    cout<<"\t Elegiste hacer Dominadas \n\n";
                     cout<<"\t INSTRUCCIONES: \n\n";
                     cout<<"\t Empieza colgado en la barra con los brazos estirados \n\n";
                     cout<<"\t y con una distancia corta entre las manos. \n\n";
                 }
                 else if(opcion_espalda==2)
                 {
-                    cout<<"\t Elegiste hacer hiper extensiones \n";
+                    cout<<"\t Elegiste hacer hiper extensiones \n\n";
                     cout<<"\t Requiere de la elevación contra la gravedad, \n\n";
                     cout<<"\t del tronco mediante la fuerza de la zona lumbar \n\n";
                     cout<<"\t y resulta efectivo para solicitar intensamente \n\n";
@@ -308,7 +328,7 @@ void Mejora::Fisica()
                 }
                 else if(opcion_espalda==3)
                 {
-                        cout<<"\t Elegiste hacer peso muerto \n";
+                        cout<<"\t Elegiste hacer peso muerto \n\n";
                         cout<<"\t Debemos cargar una barra y colocarnos tras esta para después \n\n";
                         cout<<"\t inclinar el torso erguido hacia adelante y \n\n";
                         cout<<"\t levantar la misma mediante la contracción \n\n";
@@ -316,7 +336,7 @@ void Mejora::Fisica()
                 }
                 else if(opcion_espalda==4)
                 {
-                        cout<<"\t Elegiste hacer pullover \n";
+                        cout<<"\t Elegiste hacer pullover \n\n";
                         cout<<"\t Se realiza en un banco, aunque tambien podriamos \n\n";
                         cout<<"\t ejecutarlo tumbados en el suelo, con una mancuerna \n\n";
                         cout<<"\t pesada que debemos llevar hacia atras del cuerpo \n\n";
