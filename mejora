@@ -4,6 +4,7 @@
 using namespace std;
 
 
+
 void Mejora::Mostrar_mensaje()
 {
     string nombre;
@@ -12,6 +13,7 @@ void Mejora::Mostrar_mensaje()
     cout<<" Bienvenido a PERSONAL UPDATE "<<endl;
     cout<<endl;
 }
+
 
 void Mejora::Fisica()
 {
@@ -317,6 +319,10 @@ void Mejora::Fisica()
                     cout<<"\t INSTRUCCIONES: \n\n";
                     cout<<"\t Empieza colgado en la barra con los brazos estirados \n\n";
                     cout<<"\t y con una distancia corta entre las manos. \n\n";
+                    cout<<"\t Eleva todo el cuerpo recto hasta los hombros \n\n";
+                    cout<<"\t hasta colocarlo en posición paralela al suelo \n\n";
+                    cout<<"\t y perpendicular a la posición de tus brazos. \n\n";
+                    cout<<"\t vuelve a la posicion inicial y realiza otra repeticion \n\n";
                 }
                 else if(opcion_espalda==2)
                 {
