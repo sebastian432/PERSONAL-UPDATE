@@ -1,15 +1,8 @@
 #include <iostream>
 #include <string>
 #include "Mejora.h"
+#include "Estadistica.h"
 using namespace std;
-
-
-/*
-Mejora::Mejora(string _nombre)
-{
-    nombre=_nombre;
-}
-*/
 
 
 int main()
