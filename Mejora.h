@@ -13,5 +13,7 @@ private:
 public:
         void Mostrar_mensaje();
         void Fisica();
+
+
 };
 #endif // MEJORA_H
