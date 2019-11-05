@@ -11,6 +11,11 @@ private:
         int aspecto_f;
         string nombre;
 public:
+        char volver;
+        void Regresa_Abdominales();
+        void Regresa_Piernas();
+        void Regresa_Brazos();
+        void Regresa_Espalda();
         Mejora();
         void Mostrar_mensaje();
         void Fisica();
@@ -49,3 +54,4 @@ public:
 
 };
 #endif // MEJORA_H
+
